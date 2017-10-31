@@ -7,7 +7,7 @@ module('Component: basic-app', function(hooks) {
   setupRenderingTest(hooks);
 
   test('it renders', async function(assert) {
-    await this.render(hbs`<basic-app />`);
+    await this.render(hbs`<Layout />`);
     assert.equal(this.containerElement.textContent, 'Welcome to Glimmer!\n');
   });
 });
