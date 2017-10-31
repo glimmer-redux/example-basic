@@ -32,5 +32,10 @@
   "engines": {
     "node": ">= 4.0"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "glimmer-redux": "^0.0.8",
+    "rollup-plugin-glimmer-redux": "^0.0.4"
+  }
 }
